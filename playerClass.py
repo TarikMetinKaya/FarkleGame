@@ -9,7 +9,7 @@ class Player:
 
     def throwDice(self, count):
         throwedDice=[]
-        a= Dice(1)
+        a= Dice()
         for i in range(count):
             (Dice.rollDice(a))
             throwedDice.append(a.num)
